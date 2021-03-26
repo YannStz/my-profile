@@ -1,0 +1,86 @@
+/* Colors and fonts*/
+
+body {
+	color: white;
+	font-family: Bodoni MT;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Bodoni MT;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 50px;
+  text-align: center
+}
+
+h2 {
+ ;
+ font-size: 30px;
+ font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: #413c69;
+  font-weight: bold;
+}
+
+/* Custom design */
+.container{
+  background-color: #f4f9f9;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+#aligner {
+  text-align: justify;
+}
+
+
+.card-blue {
+  background-color: #041E3A;
+  padding: 40px;
+  border-radius: 4px
+  margin: 20px 0px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card-white {
+  color:#041E3A;
+  background-color: #f8f5f1;
+  padding: 40px;
+  border-radius: 4px
+  margin: 20px 0px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.no-list {
+  list-style-type: none;
+}
+
+.list-inline{
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i{
+  font-size: 50px;
+  color:#453E60;
+}
+
+.list-inline i:hover{
+  color: rgb(230,230,230);
+}
